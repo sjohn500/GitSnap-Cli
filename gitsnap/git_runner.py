@@ -10,3 +10,4 @@ def run_git(arg, cwd):
          
     except FileNotFoundError:
         raise GitNotFoundError("Git is not installed or PATH is not Found")
+        
